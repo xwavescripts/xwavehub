@@ -1,0 +1,476 @@
+-- sponsered by BR_iut
+-- made by Xwave
+local XWaveHub = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local _09fkef9f1 = Instance.new("TextButton")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local jv02ojf = Instance.new("TextButton")
+local UIGradient_4 = Instance.new("UIGradient")
+local UICorner_4 = Instance.new("UICorner")
+local k0ffk1 = Instance.new("TextButton")
+local UIGradient_5 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+local iof0k1 = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local _0vj29f = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_7 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_8 = Instance.new("UICorner")
+local open = Instance.new("Frame")
+local open_2 = Instance.new("TextButton")
+local UIGradient_9 = Instance.new("UIGradient")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties:
+
+XWaveHub.Name = "XWaveHub"
+XWaveHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+XWaveHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = XWaveHub
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.0569620244, 0, 0.0582010597, 0)
+main.Size = UDim2.new(0, 382, 0, 337)
+main.Visible = false
+
+UICorner.Parent = main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(129, 196, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(169, 215, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(176, 218, 255)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(177, 202, 255)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(178, 179, 255)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(176, 211, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = main
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.Size = UDim2.new(0, 382, 0, 48)
+Title.Font = Enum.Font.Highway
+Title.Text = "XWave Hub"
+Title.TextColor3 = Color3.fromRGB(120, 163, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UICorner_2.Parent = Title
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(129, 196, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(255, 250, 176)), ColorSequenceKeypoint.new(0.51, Color3.fromRGB(242, 244, 187)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(169, 215, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(176, 218, 255)), ColorSequenceKeypoint.new(0.55, Color3.fromRGB(229, 247, 214)), ColorSequenceKeypoint.new(0.69, Color3.fromRGB(250, 255, 225)), ColorSequenceKeypoint.new(0.70, Color3.fromRGB(242, 255, 205)), ColorSequenceKeypoint.new(0.72, Color3.fromRGB(250, 255, 230)), ColorSequenceKeypoint.new(0.82, Color3.fromRGB(177, 205, 255)), ColorSequenceKeypoint.new(0.89, Color3.fromRGB(177, 202, 255)), ColorSequenceKeypoint.new(0.99, Color3.fromRGB(176, 211, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Parent = Title
+
+_09fkef9f1.Name = "09fkef9f1"
+_09fkef9f1.Parent = main
+_09fkef9f1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_09fkef9f1.Position = UDim2.new(0, 0, 0.142433241, 0)
+_09fkef9f1.Size = UDim2.new(0, 382, 0, 52)
+_09fkef9f1.Font = Enum.Font.Ubuntu
+_09fkef9f1.Text = "Super Human (W.I.P)"
+_09fkef9f1.TextColor3 = Color3.fromRGB(64, 124, 255)
+_09fkef9f1.TextScaled = true
+_09fkef9f1.TextSize = 14.000
+_09fkef9f1.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Parent = _09fkef9f1
+
+UICorner_3.Parent = _09fkef9f1
+
+jv02ojf.Name = "jv02ojf"
+jv02ojf.Parent = main
+jv02ojf.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jv02ojf.Position = UDim2.new(0, 0, 0.296735913, 0)
+jv02ojf.Size = UDim2.new(0, 382, 0, 52)
+jv02ojf.Font = Enum.Font.Ubuntu
+jv02ojf.Text = "Fly [G]"
+jv02ojf.TextColor3 = Color3.fromRGB(64, 124, 255)
+jv02ojf.TextScaled = true
+jv02ojf.TextSize = 14.000
+jv02ojf.TextWrapped = true
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_4.Parent = jv02ojf
+
+UICorner_4.Parent = jv02ojf
+
+k0ffk1.Name = "k0ffk1"
+k0ffk1.Parent = main
+k0ffk1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+k0ffk1.Position = UDim2.new(0, 0, 0.451038599, 0)
+k0ffk1.Size = UDim2.new(0, 382, 0, 52)
+k0ffk1.Font = Enum.Font.Ubuntu
+k0ffk1.Text = "Noclip GUI"
+k0ffk1.TextColor3 = Color3.fromRGB(64, 124, 255)
+k0ffk1.TextScaled = true
+k0ffk1.TextSize = 14.000
+k0ffk1.TextWrapped = true
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_5.Parent = k0ffk1
+
+UICorner_5.Parent = k0ffk1
+
+iof0k1.Name = "iof0k1"
+iof0k1.Parent = main
+iof0k1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iof0k1.Position = UDim2.new(0, 0, 0.605341256, 0)
+iof0k1.Size = UDim2.new(0, 382, 0, 52)
+iof0k1.Font = Enum.Font.Ubuntu
+iof0k1.Text = "Infinite Jump"
+iof0k1.TextColor3 = Color3.fromRGB(64, 124, 255)
+iof0k1.TextScaled = true
+iof0k1.TextSize = 14.000
+iof0k1.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Parent = iof0k1
+
+UICorner_6.Parent = iof0k1
+
+_0vj29f.Name = "0vj29f"
+_0vj29f.Parent = main
+_0vj29f.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_0vj29f.Position = UDim2.new(0, 0, 0.759643912, 0)
+_0vj29f.Size = UDim2.new(0, 382, 0, 81)
+_0vj29f.Font = Enum.Font.Ubuntu
+_0vj29f.Text = "IShowSpeed [Reset To Stop]"
+_0vj29f.TextColor3 = Color3.fromRGB(64, 124, 255)
+_0vj29f.TextScaled = true
+_0vj29f.TextSize = 14.000
+_0vj29f.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Parent = _0vj29f
+
+UICorner_7.Parent = _0vj29f
+
+close.Name = "close"
+close.Parent = main
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.844029427, 0, -0.0296735913, 0)
+close.Size = UDim2.new(0, 67, 0, 68)
+close.Font = Enum.Font.Unknown
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 0, 0)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_8.Parent = close
+
+UICorner_8.Parent = close
+
+open.Name = "open"
+open.Parent = XWaveHub
+open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open.BackgroundTransparency = 1.000
+open.Size = UDim2.new(0, 100, 0, 100)
+
+open_2.Name = "open"
+open_2.Parent = open
+open_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+open_2.Position = UDim2.new(5.44691086, 0, 0.174065351, 0)
+open_2.Size = UDim2.new(0, 200, 0, 50)
+open_2.Font = Enum.Font.Ubuntu
+open_2.Text = "OPEN HUB [V3]"
+open_2.TextColor3 = Color3.fromRGB(98, 127, 255)
+open_2.TextScaled = true
+open_2.TextSize = 14.000
+open_2.TextWrapped = true
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(213, 255, 216)), ColorSequenceKeypoint.new(0.58, Color3.fromRGB(130, 235, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Parent = open_2
+
+UICorner_9.Parent = open_2
+
+-- Scripts:
+
+local function ZYXWDI_fake_script() -- jv02ojf.Fly 
+	local script = Instance.new('LocalScript', jv02ojf)
+
+	-- Fly (LocalScript) Press G To Toggle
+	script.Parent.MouseButton1Click:Connect(function(player_button)
+		repeat wait() 
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+		local mouse = game.Players.LocalPlayer:GetMouse() 
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer 
+		local torso = plr.Character.Head 
+		local flying = false
+		local deb = true 
+		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local maxspeed = 400 
+		local speed = 5000 
+	
+		function Fly() 
+			local bg = Instance.new("BodyGyro", torso) 
+			bg.P = 9e4 
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+			bg.cframe = torso.CFrame 
+			local bv = Instance.new("BodyVelocity", torso) 
+			bv.velocity = Vector3.new(0,0.1,0) 
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+			repeat wait() 
+				plr.Character.Humanoid.PlatformStand = true 
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+					speed = speed+.5+(speed/maxspeed) 
+					if speed > maxspeed then 
+						speed = maxspeed 
+					end 
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+					speed = speed-1 
+					if speed < 0 then 
+						speed = 0 
+					end 
+				end 
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				else 
+					bv.velocity = Vector3.new(0,0.1,0) 
+				end 
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+			until not flying 
+			ctrl = {f = 0, b = 0, l = 0, r = 0} 
+			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+			speed = 0 
+			bg:Destroy() 
+			bv:Destroy() 
+			plr.Character.Humanoid.PlatformStand = false 
+		end 
+		mouse.KeyDown:connect(function(key) 
+			if key:lower() == "g" then 
+				if flying then flying = false 
+				else 
+					flying = true 
+					Fly() 
+				end 
+			elseif key:lower() == "w" then 
+				ctrl.f = 1 
+			elseif key:lower() == "s" then 
+				ctrl.b = -1 
+			elseif key:lower() == "a" then 
+				ctrl.l = -1 
+			elseif key:lower() == "d" then 
+				ctrl.r = 1 
+			end 
+		end) 
+		mouse.KeyUp:connect(function(key) 
+			if key:lower() == "w" then 
+				ctrl.f = 0 
+			elseif key:lower() == "s" then 
+				ctrl.b = 0 
+			elseif key:lower() == "a" then 
+				ctrl.l = 0 
+			elseif key:lower() == "d" then 
+				ctrl.r = 0 
+			end 
+		end)
+		Fly()
+	end)
+end
+coroutine.wrap(ZYXWDI_fake_script)()
+local function ZFPPR_fake_script() -- k0ffk1.NoclipGui 
+	local script = Instance.new('LocalScript', k0ffk1)
+
+	-- Fly (LocalScript) Press G To Toggle
+	script.Parent.MouseButton1Click:Connect(function(player_button)
+		repeat wait() 
+		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+		local mouse = game.Players.LocalPlayer:GetMouse() 
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer 
+		local torso = plr.Character.Head 
+		local flying = false
+		local deb = true 
+		local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		local maxspeed = 400 
+		local speed = 5000 
+	
+		function Fly() 
+			local bg = Instance.new("BodyGyro", torso) 
+			bg.P = 9e4 
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+			bg.cframe = torso.CFrame 
+			local bv = Instance.new("BodyVelocity", torso) 
+			bv.velocity = Vector3.new(0,0.1,0) 
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+			repeat wait() 
+				plr.Character.Humanoid.PlatformStand = true 
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+					speed = speed+.5+(speed/maxspeed) 
+					if speed > maxspeed then 
+						speed = maxspeed 
+					end 
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+					speed = speed-1 
+					if speed < 0 then 
+						speed = 0 
+					end 
+				end 
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				else 
+					bv.velocity = Vector3.new(0,0.1,0) 
+				end 
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+			until not flying 
+			ctrl = {f = 0, b = 0, l = 0, r = 0} 
+			lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+			speed = 0 
+			bg:Destroy() 
+			bv:Destroy() 
+			plr.Character.Humanoid.PlatformStand = false 
+		end 
+		mouse.KeyDown:connect(function(key) 
+			if key:lower() == "g" then 
+				if flying then flying = false 
+				else 
+					flying = true 
+					Fly() 
+				end 
+			elseif key:lower() == "w" then 
+				ctrl.f = 1 
+			elseif key:lower() == "s" then 
+				ctrl.b = -1 
+			elseif key:lower() == "a" then 
+				ctrl.l = -1 
+			elseif key:lower() == "d" then 
+				ctrl.r = 1 
+			end 
+		end) 
+		mouse.KeyUp:connect(function(key) 
+			if key:lower() == "w" then 
+				ctrl.f = 0 
+			elseif key:lower() == "s" then 
+				ctrl.b = 0 
+			elseif key:lower() == "a" then 
+				ctrl.l = 0 
+			elseif key:lower() == "d" then 
+				ctrl.r = 0 
+			end 
+		end)
+		Fly()
+	end)
+end
+coroutine.wrap(ZFPPR_fake_script)()
+local function TADTDBS_fake_script() -- iof0k1.InifniteJump 
+	local script = Instance.new('LocalScript', iof0k1)
+
+	local p = script.Parent
+	p.MouseButton1Click:Connect(function(plrr)
+	
+		local Player = game:GetService'Players'.LocalPlayer;
+		local UIS = game:GetService'UserInputService';
+	
+		_G.JumpHeight = 50;
+	
+		function Action(Object, Function) if Object ~= nil then Function(Object); end end
+	
+		UIS.InputBegan:connect(function(UserInput)
+			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+				Action(Player.Character.Humanoid, function(self)
+					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+						Action(self.Parent.HumanoidRootPart, function(self)
+							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+						end)
+					end
+				end)
+			end
+		end)
+	end)
+end
+coroutine.wrap(TADTDBS_fake_script)()
+local function CWFL_fake_script() -- _0vj29f.fk01 
+	local script = Instance.new('LocalScript', _0vj29f)
+
+	script.Parent.MouseButton1Click:Connect(function(pb)
+		_G.WS = "1000";
+		local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+		Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+			Humanoid.WalkSpeed = _G.WS;
+		end)
+		Humanoid.WalkSpeed = _G.WS;
+	
+		_G.WS = "55";
+		local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+		Humanoid:GetPropertyChangedSignal("JumpPower"):Connect(function()
+			Humanoid.JumpPower = _G.WS;
+		end)
+		Humanoid.JumpPower = _G.WS;
+	end)
+end
+coroutine.wrap(CWFL_fake_script)()
+local function TPVDJZD_fake_script() -- close.Script 
+	local script = Instance.new('Script', close)
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		script.Parent.Parent.Parent.main.Visible = false
+	end)
+end
+coroutine.wrap(TPVDJZD_fake_script)()
+local function KXTKYHT_fake_script() -- main.DragScript 
+	local script = Instance.new('LocalScript', main)
+
+
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(KXTKYHT_fake_script)()
+local function LKGIT_fake_script() -- open_2.Script 
+	local script = Instance.new('Script', open_2)
+
+	script.Parent.MouseButton1Click:Connect(function(plr)
+		script.Parent.Parent.Parent.main.Visible = true
+	end)
+end
+coroutine.wrap(LKGIT_fake_script)()
